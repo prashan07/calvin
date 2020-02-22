@@ -64,6 +64,28 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+.header-search-form input{
+  width: 100%;
+  padding: 15px;
+}
+
+.jumbotron{
+  padding: 20px;
+  margin-top: 30px;
+  
+}
+.jumbotron img{
+  width: 50%;
+  margin-left: 20%;
+}
+
+.form-control{
+  width: 40%;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
