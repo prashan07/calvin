@@ -1,6 +1,6 @@
 <?php
-require 'connection.php';
-session_start();
+  require 'connection.php';
+  session_start();
 ?>
 
 <!doctype html>
@@ -56,13 +56,13 @@ session_start();
         <img src="https://media.istockphoto.com/vectors/pool-party-vertical-flyer-event-banner-vector-illustration-vector-id964116426">
       </div>
       <div class="col-md-6">
-        <form class="sell_form" action="info.html">
+        <form class="sell_form" action="insert.php">
           <input type="event" class="form-control" id="inputdate" placeholder="Event" required>
-      <input type="date" class="form-control" id="inputdate" placeholder="Date" required>
-      <input type="location" class="form-control" id="inputlocation" placeholder="Location">
-      <input type="time" class="form-control" id="inputtime" placeholder="Time">
-      <input type="audience" class="form-control" id="inputaudience" placeholder="Audience">
-      <input type="description" class="form-control" id="inputdesc" placeholder="Description">
+      <input type="date" class="form-control" name="date" id="inputdate" placeholder="Date" required>
+      <input type="location" class="form-control" name="loaction" id="inputlocation" placeholder="Location">
+      <input type="time" class="form-control" name="time" id="inputtime" placeholder="Time">
+      <input type="audience" class="form-control" name="audience" id="inputaudience" placeholder="Audience">
+      <input type="description" class="form-control" name="description" id="inputdesc" placeholder="Description">
       <input type="submit" value="Submit" class="btn btn-primary">
     </form>
       </div>
